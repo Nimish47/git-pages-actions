@@ -1,16 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from './components/Container/Container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Good Morning!!! A mock change
-        </p>
-      </header>
-    </div>
+    <>
+    <Container />
+    </>
   );
 }
 
