@@ -1,0 +1,14 @@
+.navbar {
+    background: rgb(241, 246, 244);
+    background: linear-gradient(90deg, rgb(68, 70, 70) 2%, rgb(128, 129, 129) 77%);
+    display: flex;
+    padding: 0.8rem;
+}
+
+.contentArea {
+    width: 70rem;
+    max-height: 93vh; /*max-height important for overflow-y: auto to work in an embedded doc*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+}

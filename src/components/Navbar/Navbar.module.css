@@ -1,0 +1,29 @@
+.companyText {
+    font-weight: 900;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.library {
+    margin-left: auto;
+    font-weight: 550;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.focusText {
+    font-weight: 900;
+    color: whitesmoke;
+    margin-left: auto;
+    letter-spacing: 12px;
+}
+
+.companyText:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.library:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

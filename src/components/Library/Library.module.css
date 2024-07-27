@@ -1,0 +1,29 @@
+.libraryContainer {
+    margin-top: 2px;
+    min-height: 92vh;
+}
+
+.documents {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+    opacity: 0.8;
+}
+
+.title {
+    font-weight: bold;
+    color: #000000;
+}
+
+.view {
+    padding: 7px;
+    background-color: rgb(54, 131, 48);
+    color: #ffffff;
+}
+
+.documents:hover {
+    opacity: 1;
+    cursor: pointer;
+}
