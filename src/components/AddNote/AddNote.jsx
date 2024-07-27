@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import '../../firebaseConfig';
+import { collection, addDoc, getFirestore } from 'firebase/firestore';
 import styles from './AddNote.module.css'
 
 function AddNote() {
@@ -7,6 +9,8 @@ function AddNote() {
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
     const [color, setColor] = useState(false)
+
+    const db = getFirestore()
 
     const changeHandler = (event) => {
         let val = event.target.value
@@ -22,17 +26,20 @@ function AddNote() {
         setShowContent(!showcontent)
     }
 
-    const sendData = () => {
+    const sendData = async () => {
         if (color) {
 
             const obj = {
-                id: Math.floor(Math.random() * 10000000),
                 title: title,
                 content: body
             }
-            console.log('Sending data....', obj)
+
+            const res = await addDoc(collection(db, "computing"), obj);
+            console.log(res)
+            console.log('Sent data....', obj)
         }
     }
+
 
     return (
         <>
