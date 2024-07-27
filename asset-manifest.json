@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/git-pages-actions/static/css/main.5dfa7fce.css",
-    "main.js": "/git-pages-actions/static/js/main.dc589c2c.js",
+    "main.css": "/git-pages-actions/static/css/main.2aacc260.css",
+    "main.js": "/git-pages-actions/static/js/main.cc0c16f7.js",
     "static/js/453.1ad3465a.chunk.js": "/git-pages-actions/static/js/453.1ad3465a.chunk.js",
     "static/media/thiva-night.jpg": "/git-pages-actions/static/media/thiva-night.9295503bfa7a78b0f494.jpg",
     "index.html": "/git-pages-actions/index.html",
-    "main.5dfa7fce.css.map": "/git-pages-actions/static/css/main.5dfa7fce.css.map",
-    "main.dc589c2c.js.map": "/git-pages-actions/static/js/main.dc589c2c.js.map",
+    "main.2aacc260.css.map": "/git-pages-actions/static/css/main.2aacc260.css.map",
+    "main.cc0c16f7.js.map": "/git-pages-actions/static/js/main.cc0c16f7.js.map",
     "453.1ad3465a.chunk.js.map": "/git-pages-actions/static/js/453.1ad3465a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dfa7fce.css",
-    "static/js/main.dc589c2c.js"
+    "static/css/main.2aacc260.css",
+    "static/js/main.cc0c16f7.js"
   ]
 }
